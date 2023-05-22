@@ -2,8 +2,8 @@
 
 @section('content')
     
-    <main class="home-container py-5">
-
+    <main class="home-container d-flex flex-column align-items-center py-5">
+        <h1 class="mb-5">Inserisci un nuovo Progetto</h1>
         <form class="w-50" action="{{ route('admin.projects.store') }}" method="POST">
             @csrf
             <div class="mb-3">

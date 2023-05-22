@@ -2,8 +2,8 @@
 
 @section('content')
     
-    <main class="home-container py-5">
-
+    <main class="home-container d-flex d-flex flex-column align-items-center py-5">
+        <h1 class="mb-5">Modifica il Progetto</h1>
         <form class="w-50" action="{{ route('admin.projects.update', $project) }}" method="POST">
             @csrf
             @method('PUT')
