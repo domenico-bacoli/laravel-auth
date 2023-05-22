@@ -8,6 +8,14 @@ button{
     text-align: center;
 }
 
+.navbar-toggler{
+    border: none;
+
+    &button{
+        width: auto;
+    }
+}
+
 // admin/projects/dashboard STYLE
 strong{
     color: rgb(234, 81, 81);
@@ -50,14 +58,6 @@ strong{
         align-items: center;
         gap: 16px;
         padding-bottom: 20px; 
-
-        .button-more{ 
-            
-            a{
-                text-decoration: none;
-                color: white;
-            }
-        }
     }
 }
 
